@@ -1,0 +1,131 @@
+/*
+Theme Name: Manufacturer
+Description: Тема специально созданная под интернет магазин Manufacturer-Cloth 
+*/
+
+
+/* Подключение шрифтов */
+@font-face {
+    font-family: 'Montserrat-L';
+    src: url('fonts/Montserrat-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat-M';
+    src: url('fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Montserrat-SB';
+    src: url('fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat-B';
+    src: url('fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ml-a { margin-left: auto; }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.important-header {
+    width: 100%;
+    background: #4729A3;
+    font-family: "Montserrat-M";
+    font-family: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.important-header .container { display: flex; }
+.important-header .container p { margin-top: 13px; margin-bottom: 13px; }
+
+.logo-section { margin-top: 25px; }
+.logo-section a { text-decoration: none; }
+
+.logo-section .logo, .logo-section .buskit {
+    display: flex;
+    align-items: center;
+    color: #4729A3;
+}
+
+.logo-section .logo h2 { margin-left: 20px; }
+.logo-section .buskit span { margin-left: 15px; }
+
+.logo-section .logo a h2 {
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+}
+
+.logo-section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.top-menu ul li {
+    margin-right: 40px;
+}
+
+.top-menu ul li a {
+    font-family: "Montserrat-B";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    transition: color .3s;
+}
+
+.top-menu ul li a:hover {
+    text-decoration: underline;
+    color: #FC9BA0;
+}
+
+.discount-block { margin-top: 15px; }
+
+.discount-block .container {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat-SB";
+    font-weight: 600;
+    font-size: 20px;
+    background: #4729A3;
+    padding: 23px 0;
+}
